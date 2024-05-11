@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: 'fuente1';
+    src: url(font/Supersonic\ Rocketship.ttf);
+}
+
+html{
+    font-family: 'fuente1';
+}
+
+
+header{
+    background-color: #f2f2f2 ;
+    text-align: right;
+    padding: 5px 0;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #e03fc6;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-size: 20px;
+
+}
+
+nav a:hover{
+    background-color: #000;
+    color: #fff
+
+}
+
+.encabezado{
+    background-image: url(images/header1.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    
+}
+
+.encabezado h1{
+    font-size: 65px;
+    padding: 5px 0;
+    color: rgb(133, 10, 248);   
+    /*transform: translateY(-70px);
+    margin-inline: 200px; */
+}
+
+/*.texto1{
+    animation: bounce1 4s alternate backwards ease-in;
+}
+.texto2{
+    animation: bounce2 4s alternate backwards ease-in;
+}
+
+@keyframes bounce1{
+    0%{
+        transform:  translateX(-40%);
+    }
+  
+}
+@keyframes bounce2{
+    0%{
+        transform:  translateX(40%);
+    }
+}*/
+.encabezado p{
+    font-size: 35px; 
+    color: rgb(230, 27, 162);
+       
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 360px;
+    left: 580px;    
+    border-radius: 150px;
+    border: 5px solid rgb(158, 28, 233); 
+    cursor: pointer; 
+    transition: all ease 350ms;  
+}
+
+.logo:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.1);
+}
+
+.log{
+    overflow: hidden;
+}
+
+.contenedor{
+    display: flex;
+    justify-content:flex-end;
+    gap: 15px;
+}
+.contenedor a{
+    font-size: 40px;
+    transition: all ease 300ms;
+    margin-right: 15px;
+    
+}
+.contenedor a:hover{
+    transform: scale(1.2);
+}
+.whatsapp{
+    color: rgb(28, 172, 28);
+}
+.facebook{
+    color:rgb(75, 75, 241);
+}
+.instagram{
+    color: rgb(199, 27, 185);
+}
+.row{
+    height: 400px;
+    display: flex;
+  
+}
+
+.izquierda{
+    background-color: rgb(158, 110, 202);
+    width: 50%;
+
+}
+
+.derecha{
+    background-color: rgb(231, 150, 92);
+    width: 50%;
+
+}
+.izquierda1{
+    background-color: rgb(231, 150, 92);
+    width: 50%;
+
+}
+
+.derecha1{
+    background-color: rgb(158, 110, 202);
+    width: 50%;
+
+}
+
+.Galeria{
+    display: flex;/* Caja flexible */
+    gap: 15px;
+    justify-content: center;
+}
+.Galeria img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 3px solid green;   
+
+}
+
+footer{
+    background-color: rgba(8, 8, 8, 0.8);
+    text-align: center;
+    color: #f2f2f2;
+   }
+    
+
+    
+
+
+
